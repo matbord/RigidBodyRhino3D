@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Jitter.Collision.CollisionIsland" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAEEAAAgBAQAIgQBAAAEAQAAAAgAA=</HashCode>
+      <FileName>Collision\CollisionIsland.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.CollisionSystem" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKIEAEAQIIAAAACBCAAABAgoAAAAAIIgEkIAAAA=</HashCode>
+      <FileName>Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.CollisionSystemBrute" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIBAIAAAAAABAAAAAIAAAAAAAIAAAgAAAAA=</HashCode>
+      <FileName>Collision\CollisionSystemBrute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.CollisionSystemPersistentSAP" Collapsed="true">
+    <Position X="10.25" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAEgAADIDAIAAABCABAAAgAIAIAAAgCIAAAgAAAIg=</HashCode>
+      <FileName>Collision\CollisionSystemPersistentSAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.CollisionSystemSAP" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAAIBCIAAAAAABAAAABIAAAAAAAIBAIgAAAAA=</HashCode>
+      <FileName>Collision\CollisionSystemSAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.DynamicTree&lt;T&gt;" Collapsed="true">
+    <Position X="29.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkARQAABCQAGAAApAAAoIAFqAgAAgCBAAAEAAAAAA=</HashCode>
+      <FileName>Collision\DynamicTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.GJKCollide" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIgAgAAAAAAAAAAAAABAAAgAABAA=</HashCode>
+      <FileName>Collision\GJKCollide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.IslandManager" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAJCAgAAAAIQAAAAQAAgBAAgAACAAAIAwWAAEBAAA=</HashCode>
+      <FileName>Collision\IslandManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Octree" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEIIAAAACAEAgAAIBAYAAAAAAAIAAAACAFgYAA=</HashCode>
+      <FileName>Collision\Octree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.XenoCollide" Collapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAABBAA=</HashCode>
+      <FileName>Collision\XenoCollide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.BoxShape">
+    <Position X="1.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgCAAAJAAAAAgAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Shapes\BoxShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.CapsuleShape">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAAFAAAABAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Shapes\CapsuleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.CompoundShape" Collapsed="true">
+    <Position X="17" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAACAAAAgYAiAQBCCAAAgAAAgAAAAAAAAAACCFAA=</HashCode>
+      <FileName>Collision\Shapes\CompoundShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.ConeShape" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAADAAAAAQAABAIAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Shapes\ConeShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.ConvexHullShape">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAABACAAAAAAAwAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Shapes\ConvexHullShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.CylinderShape" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAADAAAAAQAABAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Shapes\CylinderShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.MinkowskiSumShape">
+    <Position X="14.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAgAABACBAAAAAAgAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Collision\Shapes\MinkowskiSumShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.Multishape" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAAAAgQACAABAAAQQgAAAEAAgAAAAAAACAAAA=</HashCode>
+      <FileName>Collision\Shapes\Multishape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.Shape" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMEAAAAAAQAgAACAABAAAAAkACAgAAAgQIAAAECAAAA=</HashCode>
+      <FileName>Collision\Shapes\Shape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.SphereShape">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAABAAAAAgAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Shapes\SphereShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.TerrainShape" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAICBQAEgQACAABAAoAoiAAAgEAAABAAAAFCAAAA=</HashCode>
+      <FileName>Collision\Shapes\TerrainShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Collision.Shapes.TriangleMeshShape" Collapsed="true">
+    <Position X="21.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAIBQAEgQACAAAAAAAgkAAAgAAAAAAAAAACQAAA=</HashCode>
+      <FileName>Collision\Shapes\TriangleMeshShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.DataStructures.ReadOnlyHashset&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAEAQAAAAAAAAAAAAAAAAQAQA=</HashCode>
+      <FileName>DataStructures\ReadOnlyHashset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Jitter.Dynamics.ContactList" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dynamics\Arbiter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Arbiter" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAEBABAAAAAQAAAAAAAAAAACAAAAEBQAAAAUCA=</HashCode>
+      <FileName>Dynamics\Arbiter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.ArbiterKeyComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dynamics\ArbiterMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Jitter.Dynamics.ArbiterMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAAgAAADAAAIAABAAMAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Dynamics\ArbiterMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Jitter.Dynamics.ContactSettings" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAigAAEYIAAACAAAAAgAAAAAACAABAAAAAA=</HashCode>
+      <FileName>Dynamics\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Contact" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQBCSgAgAEABTGgBJADgQgMQQGIHAADgEBAEgAEUBA=</HashCode>
+      <FileName>Dynamics\Contact.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Jitter.Dynamics.Material" Collapsed="true">
+    <Position X="29.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEEAAABAAAAAAQAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dynamics\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.RigidBody" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEwFEABJARggggQhnMZAaBAvhChRGZGwYYASgGHIDhk=</HashCode>
+      <FileName>Dynamics\RigidBody.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Jitter.Dynamics.SoftBody" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QOQAAACAABAgBAgBAAAwgwCmEKAAAAACQAIEJkDmAgE=</HashCode>
+      <FileName>Dynamics\SoftBody.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.Constraint" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAgAAAAAQAAAAAQAAIAABAAAAQAABAAAAAQAA=</HashCode>
+      <FileName>Dynamics\Constraint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.FixedAngle" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAiAQgAQGABAAAAAAIAAAAAAAAAIABABAAAAg=</HashCode>
+      <FileName>Dynamics\Constraints\FixedAngle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.PointOnLine" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACgAgAQgAQGQAAAAAAAIQAAAAIAQIAAAABAAAAg=</HashCode>
+      <FileName>Dynamics\Constraints\PointOnLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.PointOnPoint" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAgAQgAQGQAAAAAAAIQAAAAIAQIAAAABAAAAg=</HashCode>
+      <FileName>Dynamics\Constraints\PointOnPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.PointPointDistance" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAgBQgAQGQCAAAAAgIQEAAAKBQIAAAABAAAAg=</HashCode>
+      <FileName>Dynamics\Constraints\PointPointDistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.SingleBody.FixedAngle" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABACAAgAQkAAGAAAAAAAAIAAAAAAAAAAAAABAAAAg=</HashCode>
+      <FileName>Dynamics\Constraints\SingleBody\FixedAngle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.SingleBody.PointOnLine" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAACkAgAQgAQGQAAAAAAAIAAAAAIAQIAAAABAAAAg=</HashCode>
+      <FileName>Dynamics\Constraints\SingleBody\PointOnLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Constraints.SingleBody.PointOnPoint" Collapsed="true">
+    <Position X="14.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAACEAgAQgAQGQAAAAAAAIAAAAAIAQIAAAABAAAAg=</HashCode>
+      <FileName>Dynamics\Constraints\SingleBody\PointOnPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Joints.HingeJoint" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAIAAAABAEwBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dynamics\Joints\HingeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Joints.Joint" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dynamics\Joints\Joint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Joints.LimitedHingeJoint" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAABAEgBAAAAAAAAAAEAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Dynamics\Joints\LimitedHingeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.Dynamics.Joints.PrismaticJoint" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAFBAAJQAAAAAAAAAEAAQAAAABAAAAAAAAA=</HashCode>
+      <FileName>Dynamics\Joints\PrismaticJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.ResourcePool&lt;T&gt;" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACQAIAAIAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourcePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.ArrayResourcePool&lt;T&gt;" Collapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAADQAIAAIAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourcePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.ThreadManager" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAugAAICAQTQAAAAAAAgAAABAAIgAQgAAAACAMAA=</HashCode>
+      <FileName>ThreadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.World" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAQElAChAYPAgIiAUAMoAAIiBJmBOBIYgQCIVAAAU=</HashCode>
+      <FileName>World.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.LinearMath.JConvexHull" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LinearMath\JConvexHull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jitter.LinearMath.JMath" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABABAAAAAAFAACAAAAAAQQAAAAAAAAACAAAAA=</HashCode>
+      <FileName>LinearMath\JMath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Jitter.Collision.DynamicTreeNode&lt;T&gt;" Collapsed="true">
+    <Position X="25.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAIAAABAAEAAAAAAAAAAAAAAACEAIAAA=</HashCode>
+      <FileName>Collision\DynamicTree.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Jitter.Collision.TriangleVertexIndices" Collapsed="true">
+    <Position X="25.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAIAAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Octree.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Jitter.Dynamics.ArbiterKey" Collapsed="true">
+    <Position X="24" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAgIAAAAAAAAAAAIAAAAAAAAAAQAA=</HashCode>
+      <FileName>Dynamics\ArbiterMap.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Jitter.LinearMath.JBBox" Collapsed="true">
+    <Position X="29.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAZAUAAAQEAAAQCQAAAAAAQAAAAAAAAAYBAA=</HashCode>
+      <FileName>LinearMath\JBBox.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Jitter.LinearMath.JMatrix" Collapsed="true">
+    <Position X="29.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAEQAAAAAAAAAZAMBACACIQAAADAAAEAAAAgAAAA=</HashCode>
+      <FileName>LinearMath\JMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Jitter.LinearMath.JQuaternion" Collapsed="true">
+    <Position X="31" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAAAAAcAEDAAAAIAAAAAAAAAAABAAIYAE=</HashCode>
+      <FileName>LinearMath\JQuaternion.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Jitter.LinearMath.JVector" Collapsed="true">
+    <Position X="24" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAKAEJEABAgG8AETAARACQABAIEACACkAAAAYqM=</HashCode>
+      <FileName>LinearMath\JVector.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Jitter.Collision.IBroadphaseEntity" Collapsed="true">
+    <Position X="24" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Jitter.Collision.ISupportMappable" Collapsed="true">
+    <Position X="31" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\XenoCollide.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Jitter.Dynamics.Constraints.IConstraint" Collapsed="true">
+    <Position X="25.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Dynamics\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Jitter.IDebugDrawable" Collapsed="true">
+    <Position X="29.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>IDebugDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Jitter.IDebugDrawer" Collapsed="true">
+    <Position X="29.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAA=</HashCode>
+      <FileName>IDebugDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Jitter.Dynamics.RigidBodyIndex" Collapsed="true">
+    <Position X="24" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJA=</HashCode>
+      <FileName>Dynamics\RigidBody.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Jitter.Collision.CollisionDetectedHandler" Collapsed="true">
+    <Position X="24" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Jitter.Collision.PassedBroadphaseHandler" Collapsed="true">
+    <Position X="25.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Jitter.Collision.PassedNarrowphaseHandler" Collapsed="true">
+    <Position X="29.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Jitter.Collision.RaycastCallback" Collapsed="true">
+    <Position X="29.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Jitter.Collision.Shapes.ShapeUpdatedHandler" Collapsed="true">
+    <Position X="31" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Shapes\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

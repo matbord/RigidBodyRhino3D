@@ -1,0 +1,13 @@
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\bin\RigidBodyRhino.dll
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\bin\RigidBodyRhino.pdb
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\bin\Jitter.dll
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\bin\Jitter.pdb
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\bin\Jitter.xml
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.csprojAssemblyReference.cache
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.Properties.Resources.resources
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.TimePanel.resources
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.csproj.GenerateResource.cache
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.csproj.CoreCompileInputs.cache
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.csproj.CopyComplete
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.dll
+D:\Documenti\Universita\Tirocinio\rigidbodyrhino3d\RigidBodyRhino\RigidBodyRhino\obj\Debug\RigidBodyRhino.pdb

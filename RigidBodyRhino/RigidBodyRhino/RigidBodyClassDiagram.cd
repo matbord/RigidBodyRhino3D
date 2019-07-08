@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RigidBodyRhino.JCompoundShape">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAQCAAAAAAAAA=</HashCode>
+      <FileName>JCompoundShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.JitterBox">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAQCAAAAAAAAA=</HashCode>
+      <FileName>JitterBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.JitterCylinder">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAQCAAAAAAAAA=</HashCode>
+      <FileName>JitterCylinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.JitterSphere">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAQCAAAAAAAAA=</HashCode>
+      <FileName>JitterSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.RigidBodyEvents">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAAAAAAAAAIAAEAAAAAAQAAAAAEAgAAAQAA=</HashCode>
+      <FileName>RigidBodyEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.RigidBodyManager">
+    <Position X="6.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEJAAAAIAAAAAIkAAAAAAgBACAAAAAEAAAAA=</HashCode>
+      <FileName>RigidBodyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.RigidBodyRhinoCommand">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAEAAQCAAAAAAAAA=</HashCode>
+      <FileName>RigidBodyRhinoCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.RigidBodyRhinoPlugIn">
+    <Position X="0.75" Y="3.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAABEAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>RigidBodyRhinoPlugIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidBodyRhino.TimePanel">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>FQioJAQIAKSCQiAkEACABIOKAALAAAAE0AFgAAggICA=</HashCode>
+      <FileName>TimePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
